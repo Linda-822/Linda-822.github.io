@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张若琳 · Linda | 个人主页</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%239D7BD8'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23FFFFFF' font-family='Georgia,serif' font-weight='700'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://miaoda.feishu.cn" crossorigin>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/home" aria-label="首页">
+      <span class="brand-mark" aria-hidden="true">L</span>
+      <span data-i18n="brand">张若琳</span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#/home" data-nav="home" data-i18n="nav.home">首页</a>
+      <a href="#/about" data-nav="about" data-i18n="nav.about">关于</a>
+      <a href="#/nomi" data-nav="nomi" data-i18n="nav.nomi">宠物 Nomi</a>
+      <a href="#/gallery" data-nav="gallery" data-i18n="nav.gallery">图集</a>
+      <div class="lang-switch" role="group" aria-label="语言切换">
+        <button class="lang-btn" data-lang="zh" type="button">中</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ===== 视图：首页 ===== -->
+  <section class="view" id="view-home">
+    <div class="hero">
+      <div class="hero-left">
+        <div class="id-photo">
+          <img src="assets/idphoto.jpg" alt="张若琳 证件照 / ID photo" width="1200" height="1600">
+        </div>
+        <div class="hero-text">
+        <p class="hero-greet" data-i18n="home.greeting">你好，我是</p>
+        <h1 class="hero-name">张若琳<span class="dot">.</span><br><span data-i18n="home.name">Linda Zhang</span></h1>
+        <p class="hero-tagline" data-i18n="home.tagline">上海交通大学 · 英语（语言智能）-法学</p>
+        <p class="hero-intro" data-i18n="home.intro">喜欢在语言与法律之间游走，也喜欢毛茸茸的小动物。</p>
+        <div class="chips">
+          <span class="chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span data-i18n="home.chipSchool">上海交通大学</span>
+          </span>
+          <span class="chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <span data-i18n="home.chipPet">Nomi · 白色博美</span>
+          </span>
+          <span class="chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            <span>lindazhang@sjtu.edu.cn</span>
+          </span>
+        </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="blob" aria-hidden="true"></div>
+        <div class="hero-photo">
+          <img src="assets/nomi-square.jpg" alt="Nomi 白色博美犬面部特写" width="1200" height="1200">
+        </div>
+        <div class="hero-badge">
+          <span class="paw" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="5" cy="9" rx="2.2" ry="2.9"/><ellipse cx="10" cy="5.8" rx="2.4" ry="3"/><ellipse cx="15.5" cy="5.8" rx="2.4" ry="3"/><ellipse cx="20.5" cy="9" rx="2.2" ry="2.9"/><path d="M12 11c3.5 0 6.5 3 6.5 6.2 0 2-1.6 3.3-3.6 3.3-1.2 0-2-.5-2.9-.5s-1.7.5-2.9.5c-2 0-3.6-1.4-3.6-3.3C5.5 14 8.5 11 12 11z"/></svg>
+          </span>
+          <span><b>Nomi</b><span data-i18n="home.badge">白色博美 · 永远好奇</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <h3 data-i18n="home.c1t">教育</h3>
+        <p><span data-i18n="home.c1d1">上海交通大学 · 外国语学院</span><br>
+           <strong><span data-i18n="home.c1d2">英语（语言智能）-法学</span></strong><br>
+           <span data-i18n="home.c1d3">2025.09 – 2029.06</span></p>
+      </div>
+      <div class="info-card">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="5" cy="9" rx="2" ry="2.6"/><ellipse cx="10" cy="5.6" rx="2.2" ry="2.7"/><ellipse cx="15" cy="5.6" rx="2.2" ry="2.7"/><ellipse cx="20" cy="9" rx="2" ry="2.6"/><path d="M12 10.5c3.2 0 6 2.8 6 5.8 0 1.9-1.5 3.2-3.4 3.2-1.1 0-1.9-.5-2.6-.5s-1.5.5-2.6.5c-1.9 0-3.4-1.3-3.4-3.2 0-3 2.8-5.8 6-5.8z"/></svg>
+        </div>
+        <h3 data-i18n="home.c2t">伙伴</h3>
+        <p><strong>Nomi</strong><br><span data-i18n="home.c2d">白色博美，永远好奇</span></p>
+      </div>
+      <div class="info-card">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        </div>
+        <h3 data-i18n="home.c3t">联系</h3>
+        <p><strong>lindazhang@sjtu.edu.cn</strong><br><span data-i18n="home.c3d">欢迎写信交流</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 视图：关于 ===== -->
+  <section class="view" id="view-about" hidden>
+    <div class="page-head">
+      <span class="kicker" data-i18n="about.kicker">关于我</span>
+      <h1 data-i18n="about.title">用语言理解世界，也用逻辑守护它</h1>
+    </div>
+
+    <div class="about-body">
+      <div>
+        <div class="section-block">
+          <h2><span class="no" aria-hidden="true">01</span><span data-i18n="about.self">自我介绍</span></h2>
+          <p class="lead" data-i18n="about.p1">张若琳，英文名 Linda，现就读于上海交通大学外国语学院，主修英语（语言智能），辅修法学。</p>
+          <p style="color:var(--muted);margin-top:16px" data-i18n="about.p2">语言智能让她着迷于“语言如何被理解、被生成”；法学则教她用审慎的目光看待技术带来的新问题。课余时间，她喜欢阅读、散步，和 Nomi 一起在阳光下发呆。</p>
+          <div class="hobby-chips">
+            <span data-i18n="about.h1">阅读</span>
+            <span data-i18n="about.h2">散步</span>
+            <span data-i18n="about.h3">晒太阳</span>
+            <span data-i18n="about.h4">语言学</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-block">
+          <h2><span class="no" aria-hidden="true">02</span><span data-i18n="about.edu">教育经历</span></h2>
+          <div class="timeline">
+            <div class="tl-node">
+              <div class="tl-time" data-i18n="about.t1t">2025.09</div>
+              <div class="tl-axis"><span class="tl-dot"></span></div>
+              <div class="tl-content">
+                <h3 data-i18n="about.t1h">入学 · 上海交通大学外国语学院</h3>
+                <p data-i18n="about.t1d">开始英语（语言智能）-法学方向的学习，语言与人工智能的交叉从这里启程。</p>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-time" data-i18n="about.t2t">2029.06</div>
+              <div class="tl-axis"><span class="tl-dot"></span></div>
+              <div class="tl-content">
+                <h3 data-i18n="about.t2h">本科毕业（预计）</h3>
+                <p data-i18n="about.t2d">完成英语（语言智能）-法学双领域的学习与训练。</p>
+                <span class="tl-note" data-i18n="about.t2n">在读中</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-block">
+      <h2><span class="no" aria-hidden="true">03</span><span data-i18n="about.area">专业方向</span></h2>
+      <div class="area-cards">
+        <div class="area-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-2-2-6-2-7.5.5C3 7.5 3.5 10 6 12l6 6 6-6c2.5-2 3-4.5 1.5-6.5C18 3 14 3 12 5z"/></svg>
+            <span data-i18n="about.a1t">英语（语言智能）</span>
+          </h3>
+          <p data-i18n="about.a1d">语言与人工智能的交叉学科：关注语言如何被理解、被生成、被计算。</p>
+        </div>
+        <div class="area-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg>
+            <span data-i18n="about.a2t">法学</span>
+          </h3>
+          <p data-i18n="about.a2d">以法律视角审视语言与技术的边界，理解责任与规则。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 视图：宠物 Nomi ===== -->
+  <section class="view" id="view-nomi" hidden>
+    <div class="nomi-grid">
+      <div class="nomi-photo">
+        <img src="assets/nomi.jpg" alt="Nomi 白色博美犬特写" width="1200" height="1600">
+      </div>
+      <div class="nomi-body">
+        <span class="kicker" data-i18n="nomi.kicker">我的伙伴</span>
+        <h1 class="serif" style="font-size:clamp(1.9rem,3.6vw,2.6rem);font-weight:700;margin-bottom:18px" data-i18n="nomi.title">Nomi · 白色博美</h1>
+        <p class="lead" data-i18n="nomi.p1">Nomi 是我们家最毛茸茸的一员。照片里的它凑近镜头，用一双黑亮的眼睛认真打量这个世界。</p>
+        <p class="nomi-quote" data-i18n="nomi.quote">“世界很大，但 Nomi 的眼睛装得下全部好奇。”</p>
+        <div class="fact-grid">
+          <div class="fact">
+            <span data-i18n="nomi.f1k">品种</span>
+            <b data-i18n="nomi.f1v">白色博美</b>
+          </div>
+          <div class="fact">
+            <span data-i18n="nomi.f2k">特征</span>
+            <b data-i18n="nomi.f2v">毛茸茸 · 好奇心旺盛</b>
+          </div>
+          <div class="fact">
+            <span data-i18n="nomi.f3k">爱好</span>
+            <b data-i18n="nomi.f3v">晒太阳 · 散步</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 视图：图集 ===== -->
+  <section class="view" id="view-gallery" hidden>
+    <div class="page-head">
+      <span class="kicker" data-i18n="gallery.kicker">图集</span>
+      <h1 data-i18n="gallery.title">一些喜欢的画面</h1>
+      <p data-i18n="gallery.desc">来自相册与画笔，一份淡紫色调的小小收藏。</p>
+    </div>
+    <div class="gallery-grid">
+      <figure class="g-item">
+        <img src="assets/nomi.jpg" alt="Nomi 白色博美犬特写" width="1200" height="1600">
+        <figcaption class="g-cap" data-i18n="gallery.g1">Nomi 的近距离特写</figcaption>
+      </figure>
+      <figure class="g-item">
+        <img src="assets/lavender.jpg" alt="薰衣草田水彩插画" width="1600" height="1200">
+        <figcaption class="g-cap" data-i18n="gallery.g2">薰衣草田 · 水彩插画</figcaption>
+      </figure>
+      <figure class="g-item">
+        <img src="assets/nomi-illustration.jpg" alt="淡紫色调的博美犬插画" width="1200" height="1200">
+        <figcaption class="g-cap" data-i18n="gallery.g3">Nomi 插画 · 淡紫色调</figcaption>
+      </figure>
+      <figure class="g-item">
+        <img src="assets/study.jpg" alt="书房学习场景插画" width="1600" height="1200">
+        <figcaption class="g-cap" data-i18n="gallery.g4">书房一角 · 插画</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span data-i18n="footer.line">由薰衣草色点亮的小站 · © 2026 张若琳</span>
+    <a class="footer-mail" href="mailto:lindazhang@sjtu.edu.cn">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+      lindazhang@sjtu.edu.cn
+    </a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
